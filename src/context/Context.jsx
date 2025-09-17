@@ -31,6 +31,7 @@ export default function GlobalState({ children }) {
         setRecipeList([]);
         setLoading(false);
         setSearchParams("");
+        navigate("/")
       }
     } catch (e) {
       setLoading(false);
