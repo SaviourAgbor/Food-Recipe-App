@@ -15,7 +15,7 @@ function App() {
         <div className="">
           <Navbar />
         </div>
-        <div className="py-20 px-5">
+        <div className="pt-23 md:pt-20 pb-15 px-5">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/favorites" element={<Favorites />} />

@@ -8,7 +8,7 @@ export default function Home() {
     if(loading) return <div className='text-center mt-10 text-xl font-extrabold'>Loading...</div> 
 
   return (
-    <div className=' flex flex-wrap gap-7 justify-center items-center mx-auto'>
+    <div className=' flex flex-wrap gap-5 justify-center items-center mx-auto'>
       { 
         recipeList && recipeList.length > 0 ? 
         recipeList.map((item) => (

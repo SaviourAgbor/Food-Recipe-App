@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function RecipeItem({item}) {
   return (
-    <div className=' rounded-2xl  shadow-lg shadow-red-200/50    hover:shadow-lg hover:shadow-red-300 duration-300 flex flex-col w-full md:w-65  lg:w-70 overflow-hidden p-2 bg-white/75 gap-5 bord border-white'>
+    <div className=' rounded-2xl  shadow-lg shadow-red-200/50    hover:shadow-lg hover:shadow-red-300 duration-300 flex flex-col w-full md:w-65  lg:w-70 overflow-hidden p-3 bg-white/75 gap-5 bord border-white'>
       <div className='h-40  w-full overflow-hidden flex justify-center items-center rounded-2xl'>
         <img src={item.image_url} alt={item.title} className='block w-full object-cover h-full'/>
       </div>
