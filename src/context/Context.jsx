@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export const GlobalContext = createContext(null);
 
 export default function GlobalState({ children }) {
-  const [searchParams, setSearchParams] = useState("coconut");
+  const [searchParams, setSearchParams] = useState("mango");
   const [loading, setLoading] = useState(false);
   const [recipeList, setRecipeList] = useState([]);
   const [recipeDetailsData, setRecipeDetailsData] = useState(null);
@@ -53,7 +53,6 @@ export default function GlobalState({ children }) {
       setFavorites([...favorites]);
     }
   }
-  console.log(favorites);
 
   return (
     <GlobalContext.Provider
