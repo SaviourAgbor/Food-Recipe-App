@@ -11,7 +11,7 @@ export default function Navbar() {
       {/* Top section (h2 + nav links) only stacked on small screens */}
       <div className=" w-full flex justify-between gap-5">
         <h2 className="sm:text-md md:text-2xl font-semibold leading-5  ">
-          <NavLink to={"/"}>Food Recipes</NavLink>
+          <NavLink to={"/"} className="cursor-pointer" ><span className="text-2xl font-thin">Foodie</span><span className="text-orange-700 text-3xl">x</span></NavLink>
         </h2>
 
         <ul className="flex gap-2 md:gap-5 items-center   text-black md:mt-0">
